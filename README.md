@@ -1,55 +1,25 @@
-> Definition of your audience
-My Audience will be young adults seeking a themed medival restaurant experience.
+# Savvy Coders Project Boilerplate Starter Kit
 
+## Overview
 
-> Definition statement (I want to create a web application that...) for your project
-I want to create a menu that caters to the design of a themed restaurant while exploring animation techniques.
+This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
 
+In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
 
-> High level story (elevator pitch)
-/ Hi! I'm making a themed web page for a dungeons and dragons cafe, the goal being to snag attention while catering to the theme of the cafe. Giving veiwers information of the establisment and allowing them to place orders for big events!
+1. [ESLint](eslint.org)
+2. [Stylelint](stylelint.io)
+3. [Prettier](prettier.io)
 
-/ Hi, I’m Megan Loptmann. I’m a creative professional that is passionate about graphic design and illustration. I am an organized person who works on my portfolio for hours at a time and I likes to get projects accomplished. I see myself designing and creating work for a client as part of a team. Next, I would like to learn how to do game studio work. Joined Savvy Coders to learn how to expand my coding abilities.
+## Get Started
 
+**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per [this guide...](https://www.notion.so/codefinity/Setting-up-a-Local-Dev-Environment-97de62a546f943fbbc7a246b4785a343)
 
-> Outline of the content
-MENU page
-  Title: Mourning Dragon
-  Logo
-  Address/Phone: 123 Dragon Court Lane, St. Louis MO (314)123-4567
+Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), kindly [follow these girections](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) - essentially, there should be a button 👆🏾that says **Use this template.**
 
-  Menu
-      Entrees
-          Highlands Beef Brisket and Roll
-          Citadel Chicken Mini Pot pie
-          Ironforge Potatoe Hash and Bacon
-          Forests Spring Salad
-          Tavern Meat Buns
-      Side
-          Fluffy Rolls
-          Spring Salad
-          Mash n' Cheese
-      Dessert
-          Elven Vanilla Icecream
-          Dwarven Rum Float
-          Dragon Lava Mountain
-      Drinks
-          Dwarven Tap
-          Magicans Margarita's
+Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual. Once it's `clone`d to your local machine, kindly `cd` into the directory and **be sure to do:** `npm i` to get all of the goodies. If you see any _errors_ (warnings are 🙆🏾‍♂️) on Windows, you may have to do `npm install`.
 
- INFO page
-    Location: 123 Dragon Court Lane, St. Louis MO
-    Phone: (314)123-4567
-    About Us: Local start up Fantasy Tavern that caters to those seeking adventure and food. We offer food, games, and a space to be yourself.
-    Google Maps
-    Reviews
+Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom right of your screen). You should install these. 👍🏾
 
- ORDER page
-    Drop Down
-        Entree/Side/Dessert/Drinks
-        Add Another? Y/N
+Update this README and make any other initial changes or 🌱 files, etc. Go ahead and do your usual `git` steps, etc. etc. etc.
 
-> User Flow
-Menu 'Main Page' > Look at logog/title then menu items > Info/Order 'Side Pages'
-Ideally results in them going to Tavern or ordering online.
-
+**Note:** This is a template repository, no need to 'fork it.
