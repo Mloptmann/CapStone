@@ -4,18 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parcel-build": "parcel build index.html && cp _redirects ./dist/",
-    "serve": "parcel index.html",
-    "watch:server": "nodemon --watch ./server -e js ./server/index.js"
+    "serve": "npx parcel ./client/index.html",
+    "start": "nodemon --watch ./server -e js ./server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "parcel-bundler": "^1.12.4",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.5",
     "prettier": "1.19.1",
     "stylelint": "^11.1.1",
     "stylelint-config-prettier": "^6.0.0",
@@ -24,12 +23,9 @@
     "stylelint-vscode": "^7.0.0-6"
   },
   "dependencies": {
-    "axios": "^0.20.0",
-    "dotenv": "^8.2.0",
-    "lodash": "^4.17.20",
-    "navigo": "^7.1.2",
-    "nodemon": "^2.0.4",
-    "save-dev": "0.0.1-security",
-    "store": "^2.0.12"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "parcel": "^1.12.4",
+    "pg": "^8.4.1"
   }
 }
